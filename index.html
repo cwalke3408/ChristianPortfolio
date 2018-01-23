@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="scss/style.css">
+</head>
+
+<body>
+	<div  class='container-fluid' id='main'>
+<!-- Title -->
+		<h1> Christian Walker's Portfolio <h1>
+<!-- Tags-->
+	  <ul>
+		 <li><a href="#aboutME">Bio</a></li>
+		 <li><a href="#projects">Projects</a></li>
+		 <li><a href="#sProjects">Senior Projects</a></li>
+		 <li><a href="#contact">Contact</a></li>
+	  </ul>
+
+<!-- Bio -->
+		<div class = 'about' id='aboutME'>
+			<div class='row'>
+				<div class='col-sm-3' id = 'aboutS1'>
+					<div class='row' id = 'who'></div>
+					<div class'row' id= 'pic'><img src='http://res.cloudinary.com/dxk0hmx42/image/upload/c_scale,h_437,w_265/v1516484749/pic_outside1_qq7shu.jpg' alt="My Picture" height='600' width="600"></div>
+				</div>
+				<div class = 'col-sm-8' id = 'aboutS2'>
+					<!-- -->
+					<h3>Who I'm I</h3>
+					<p>Relaxing, drinking coffee, and writing code is what I like to do with the occasional break to play disc golf or Rocket League.  I am a recent graduate from Clemson University with a bachelors in Computer Engineer.  I love strategizing and solving problems which are my favorite parts about coding.</p>
+					<h3>What I've Done</h3>
+					<p>I have built a strong foundation in html, CSS, and JavaScript from building front projects.  To aid me during projects I have used Bootstrap, SVG, SCSS and tools such as Git, Node.js, npm, and dev tools.  I have worked on many JavaScript exercises by solving Katas on Codewars and algorithms on FreeCodeCamp.</p>
+					<p>While in school I have developed programs for embedded systems, data-structures, and parallel using the MPI API, and memory management.  Have learn languages such as C, Python, VHDL, and others to help develop these systems. </p>
+					<h3>What I'm working on right Now</h3>
+					<p>Learning React and building data visualization projects.  I’m continuing to improve in my front-end skills by watching reading, watching videos, and attending local coding meetups.</p>
+					<h3>What I'm working on in the Future</h3>
+					<p>Learning Backend</p>
+				</div>
+			</div>
+		</div>
+
+<!-- Projects -->
+		<div id='projects'>
+			<div class='row justify-content-center'>
+				<h3 class='justify-content-center'> Projects </h3>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-sm-3 proj" id="proj1"><a href="https://cwalke3408.github.io/Pomodoro-Clock/">
+					<img src='http://res.cloudinary.com/dxk0hmx42/image/upload/v1516502452/PomodoroClock-pic_l3wbx8.png' height='400' width='400'></a></div>
+				<div class="col-sm-3 proj" id='proj2'><a href="https://cwalke3408.github.io/TicTacToe_Game/">
+					<img src='http://res.cloudinary.com/dxk0hmx42/image/upload/v1516489181/TicTacToe-thumbnail_qoxwkc.png' height='400' width='400'></a></div>
+				<div class="col-sm-3 proj" id='proj3'><a href="https://codepen.io/cwalke3408/full/RjEKoX/">
+					<img src='https://s3-us-west-2.amazonaws.com/i.cdpn.io/1457934.RjEKoX.small.2d82abe5-8401-456a-bc00-e28c55ae0e2e.png' height='400' width='400'></a></div>
+			</div>
+			<div class = 'row justify-content-center'>
+				<div class="col-sm-3 proj" id='proj4'><a href="https://codepen.io/cwalke3408/full/jayEoK/">
+					<img src='http://res.cloudinary.com/dxk0hmx42/image/upload/v1516506780/Simon-pic_ihekkb.jpg' height='400' width='400'></a></div>
+				<div class="col-sm-3 proj" id='proj5'><a href="https://codepen.io/cwalke3408/full/EwGeZQ/">
+					<img src='http://res.cloudinary.com/dxk0hmx42/image/upload/v1516506725/Wiki-pic_nx1mpp.jpg' height='400' width='400'></a></div>
+				<div class="col-sm-3 proj" id='proj6'><a href="https://codepen.io/cwalke3408/full/QqMaMr/">
+					<img src='http://res.cloudinary.com/dxk0hmx42/image/upload/v1516506821/Weather-pic_k1picu.jpg' height='400' width='400'></a></div>
+			</div>
+			<div id='projBox'>
+			</div>
+		</div>
+
+<!-- Senior Porjects -->
+		<div id = 'sProjects'>
+			<div class = 'row'>
+				<div class="col-sm-3"><!-- width="560" height="315" -->
+
+					<iframe
+     src="https://www.youtube.com/embed/j8heINkawng?rel=0&amp;controls=0"frameborder="0" allowfullscreen>
+        			</iframe>
+				</div>
+				<div class="col-sm-8">
+					<h3> Wack-A-Mole </h3>
+					<p>An implemented closed-loop position control system to control and integrate hardware with Simulink and MATLAB to play Wack-A-Mole.  Manipulating and reading motor angles and triggering the solenoid through Simulink while communicating between the Quenser board and the MATLAB code.  Image processing using a HP webcam and MATLAB to locate and identify RGV values of the LEDs.
+					</p>
+				</div>
+			</div>
+			<div class = 'row'>
+				<div class="col-sm-3">
+					 <iframe class="row" src="https://www.youtube.com/embed/qzwHqC4O0aY?rel=0&amp;controls=0" frameborder="0" allowfullscreen>
+					  </iframe>
+				</div>
+				<div class="col-sm-8">
+					<h3> Visual Inspection Unit </h3>
+					<p>Autonomous inspection robot capable of identifying holes on a provided surface. Provided user-friendly GUI capable of accessing the file containing the captured holes specification, provide a simulated visual of the surface and captured holes, and start the rover in either “Sweep” or “Inspect” mode.  Processed through a Raspberry Pi accompanied by Arduino and Alamode, and image capture through a Raspberry Pi camera module with input connection to the processor.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
